@@ -1,14 +1,16 @@
-import { IItem, ItemType } from "../enum/index";
+import { ItemType } from "../enum/ItemType";
+import { IItem } from "../types/Iitem";
 
 
 export class Weapon implements IItem {
     type: ItemType;
+    
 
     constructor(
         public id: string | number,
         public name: string,
-        damage: number
+        public damage: number
     ) {
-        this.type = ItemType.KEY;
+        this.type = ItemType.WEAPON;
     }
 }

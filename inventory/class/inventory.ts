@@ -1,8 +1,8 @@
-import { IItem } from "../types/i-item";
+import { IItem } from "../types/Iitem";
 import { ItemType } from "../enum/ItemType";
 
 
-export class Iventory {
+export class Inventory {
   items: IItem[] = [];
 
   addItem(item: IItem) {

@@ -1,8 +1,8 @@
-import { Iventory } from "./class/inventory";
+import { Inventory } from "./class/inventory";
 import { ItemType } from "./enum/ItemType";
-import { IItem } from "./types/i-item";
+import { IItem } from "./types/Iitem";
 import { Key } from "./items/Key";
 import { Potion } from "./items/Potion";
 import { Weapon } from "./items/Weapon";
 
-export { Iventory, ItemType, IItem, Key, Potion, Weapon };
+export { Inventory, ItemType, IItem, Key, Potion, Weapon };

@@ -1,4 +1,5 @@
-import { IItem, ItemType } from "../enum/index";
+import { ItemType } from "../enum/ItemType";
+import { IItem } from "../types/Iitem";
 
 
 export class Key implements IItem {
